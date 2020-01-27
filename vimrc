@@ -8,3 +8,5 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 so ~/.vim/plugins.vim
+
+let g:ycm_filepath_blacklist = {}
