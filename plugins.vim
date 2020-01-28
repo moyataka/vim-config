@@ -6,6 +6,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'othree/yajs.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
-Plug 'Valloric/YouCompleteMe', {'do': './install.py --tern-completer'}
+Plug 'Valloric/YouCompleteMe', {'do': './install.py --tern-completer --js-completer'}
 
 call plug#end()
