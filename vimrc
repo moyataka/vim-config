@@ -10,6 +10,9 @@ endif
 so ~/.vim/plugins.vim
 
 let g:ycm_filepath_blacklist = {}
+set completeopt-=preview
+
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType json	    setlocal shiftwidth=2 tabstop=2
 autocmd FileType python     setlocal shiftwidth=4 softtabstop=4 expandtab
 set number
