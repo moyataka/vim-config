@@ -7,5 +7,6 @@ Plug 'othree/yajs.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'Valloric/YouCompleteMe', {'do': './install.py --tern-completer --js-completer'}
+Plug 'vim-scripts/indentpython.vim'
 
 call plug#end()
