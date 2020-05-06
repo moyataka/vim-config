@@ -38,7 +38,7 @@ autocmd FileType python     setlocal shiftwidth=4 softtabstop=4 expandtab
 "show line number
 set number
 
-" auto close bracket
+"auto close bracket
 inoremap " ""<left>
 inoremap ' ''<left>
 inoremap ( ()<left>
@@ -52,4 +52,8 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+"nerdtree shortcut ,ne
+let mapleader = ","
+nmap <leader>ne :NERDTree<cr>
 
