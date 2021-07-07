@@ -57,3 +57,7 @@ map <C-l> <C-W>l
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
 
+"YouCompleteMe
+nnoremap <leader>sgt  :split \| YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <leader>vgt  :vsplit \| YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <leader>gt  :YcmCompleter GoToDefinitionElseDeclaration<CR>
