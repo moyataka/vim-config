@@ -61,3 +61,6 @@ nmap <leader>ne :NERDTree<cr>
 nnoremap <leader>sgt  :split \| YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>vgt  :vsplit \| YcmCompleter GoToDefinitionElseDeclaration<CR>
 nnoremap <leader>gt  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+"use ; for :GFiles instead of :Files (File ignore gitignored files)
+nnoremap ; :GFiles<Cr>
