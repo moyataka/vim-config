@@ -31,6 +31,7 @@ set completeopt-=preview
 
 "config indent by filetype
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType rust     setlocal shiftwidth=2 tabstop=2
 autocmd FileType json	    setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml 	    setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab 
 autocmd FileType python     setlocal shiftwidth=4 softtabstop=4 expandtab
