@@ -8,5 +8,6 @@ Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'Valloric/YouCompleteMe', {'do': './install.py --tern-completer --js-completer --rust-completer'}
 Plug 'vim-scripts/indentpython.vim'
+Plug 'rescript-lang/vim-rescript'
 
 call plug#end()
