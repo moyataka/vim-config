@@ -65,3 +65,11 @@ nnoremap <leader>gt  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
 "use ; for :GFiles instead of :Files (File ignore gitignored files)
 nnoremap ; :GFiles<Cr>
+
+"rescript
+autocmd FileType rescript nnoremap <silent> <buffer> <localleader> t :RescriptTypeHint<CR>
+autocmd FileType rescript nnoremap <silent> <buffer> <localleader> b :RescriptBuild<CR>
+autocmd FileType rescript nnoremap <silent> <buffer> gt :RescriptJumpToDefinition<CR>
+
+"rust
+autocmd FileType rust nnoremap <silent> <buffer> <localleader> b :make build<CR>
