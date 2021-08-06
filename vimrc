@@ -30,6 +30,7 @@ set completeopt-=preview
 
 "config indent by filetype
 autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType rescript setlocal shiftwidth=2 tabstop=2
 autocmd FileType rust     setlocal shiftwidth=2 tabstop=2
 autocmd FileType json	    setlocal shiftwidth=2 tabstop=2
 autocmd FileType yaml 	    setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab 
@@ -56,6 +57,9 @@ map <C-l> <C-W>l
 "nerdtree shortcut ,ne
 let mapleader = ","
 nmap <leader>ne :NERDTree<cr>
+
+"toggle line number
+nnoremap <leader>nu :set nu!<CR>
 
 "YouCompleteMe
 nnoremap <leader>sgt  :split \| YcmCompleter GoToDefinitionElseDeclaration<CR>
